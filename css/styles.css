@@ -81,3 +81,26 @@ button {
 button:hover {
   background-color: #45a049;
 }
+
+/* Media query for tablets */
+@media (min-width: 768px) {
+  .container {
+    max-width: 800px;
+  }
+}
+
+/* Media query for larger screens */
+@media (min-width: 1024px) {
+  .container {
+    max-width: 600px;
+  }
+
+  h1 {
+    font-size: 30px; /* Adjust font size for larger screens */
+  }
+
+  button {
+    width: 40%; /* Adjust button width for larger screens */
+    max-width: 300px;
+  }
+}
