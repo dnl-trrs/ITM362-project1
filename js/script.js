@@ -1,9 +1,11 @@
-document.getElementById('fullName').addEventListener('blur', function () {
-    const fullNameValue = this.value;
-  
-    if (fullNameValue.trim() === '') {
-      alert('Please fill in your full name.');
-    } else {
-      alert('Your full name is filled.');
-    }
-  });
+document.getElementById('signupForm').addEventListener('submit', function(event) {
+  event.preventDefault();
+
+  const fullName = document.getElementById('fullName').value;
+
+  if (!fullName) {
+    alert('Please fill in the full name field.');
+  } else {
+    alert('Form filled successfully!');
+  }
+});
