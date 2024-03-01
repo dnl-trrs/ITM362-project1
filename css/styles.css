@@ -39,3 +39,22 @@ h2 {
   position: relative;
   z-index: 1;
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 8px;
+}
+
+input {
+  max-width: 300px;
+  width: 100%;
+  align-self:center;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+}
