@@ -1,11 +1,18 @@
 body {
-  font-family: 'Lato', sans-serif;
   background-image: url(https://preview.redd.it/metal-gear-solid-wallpaper-collage-thing-i-made-v0-hmje513kroy81.png?auto=webp&s=5c697e4a5d33b5be7fed22183b87081ea6c32fe8);
   background-size:cover;
   background-repeat: no-repeat;
   color: #000000;
   margin: 0;
   padding: 0;
+
+  font-family: "Sixtyfour", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "BLED" 0,
+    "SCAN" -6;
 }
 
 body::before {
@@ -19,7 +26,7 @@ body::before {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 25px;
   margin-bottom: 20px;
 }
 
