@@ -5,7 +5,6 @@ body {
   color: #00d904;
   margin: 0;
   padding: 0;
-
   font-family: "Sixtyfour", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -13,7 +12,6 @@ body {
     "BLED" 0,
     "SCAN" -6;
 }
-
 body::before {
   content: '';
   position: absolute;
@@ -23,16 +21,13 @@ body::before {
   left: 0;
   background-color: rgba(0, 0, 0, 0.7);
 }
-
 h1 {
   font-size: 25px;
   margin-bottom: 20px;
 }
-
 h2 {
   font-size: 20px;
 }
-
 .container {
   align-items: center;
   text-align: center;
@@ -45,16 +40,13 @@ h2 {
   position: relative;
   z-index: 1;
 }
-
 form {
   display: flex;
   flex-direction: column;
 }
-
 label {
   margin-bottom: 8px;
 }
-
 input {
   max-width: 300px;
   width: 100%;
@@ -64,7 +56,6 @@ input {
   border: 1px solid #ffffff;
   border-radius: 10px;
 }
-
 button {
   max-width: 200px;
   width: 50%;
@@ -76,28 +67,23 @@ button {
   border-radius: 10px;
   cursor: pointer;
 }
-
 button:hover {
   background-color: #45a049;
 }
-
 /* Media query for tablets */
 @media (min-width: 768px) {
   .container {
     max-width: 800px;
   }
 }
-
 /* Media query for larger screens */
 @media (min-width: 1024px) {
   .container {
     max-width: 600px;
   }
-
   h1 {
     font-size: 30px; /* Adjust font size for larger screens */
   }
-
   button {
     width: 40%; /* Adjust button width for larger screens */
     max-width: 300px;
