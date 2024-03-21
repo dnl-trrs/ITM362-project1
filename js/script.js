@@ -17,8 +17,8 @@ document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("passwordError").textContent = isPasswordValid ? "" : "Password must be at least 6 characters long";
     //If all the fields are validated then submit the form
     if (isFullNameValid && isEmailValid && isPasswordValid) {
-    form.submit();
-    alert("Welcome, " + fullNameInput + ". You should recieve an email shortly");
+      form.submit();
+      alert("Welcome, " + fullNameInput.value + ". You should receive an email shortly");
     }
   });
 });
